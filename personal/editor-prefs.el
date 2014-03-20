@@ -31,5 +31,8 @@
 ;;; A key binding for the unfill-paragraph function.
 (define-key global-map "\M-Q" 'unfill-paragraph)
 
+;;; Turn autoindenting on.
+(global-set-key "\r" 'newline-and-indent)
+
 (provide 'editor-prefs)
 ;;; editor-prefs.el ends here
