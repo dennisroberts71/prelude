@@ -10,5 +10,8 @@
 (require 'whitespace)
 (setq whitespace-line-column 100)
 
+;;; Turn autoindenting on.
+(global-set-key "\r" 'newline-and-indent)
+
 (provide 'editor-prefs)
 ;;; editor-prefs.el ends here
