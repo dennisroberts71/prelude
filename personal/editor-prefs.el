@@ -34,5 +34,9 @@
 ;;; Turn autoindenting on.
 (global-set-key "\r" 'newline-and-indent)
 
+;;; Never use tabs; it may be necessary to find a way to override this for make
+;;; description files.
+(setq-default indent-tabs-mode nil)
+
 (provide 'editor-prefs)
 ;;; editor-prefs.el ends here
