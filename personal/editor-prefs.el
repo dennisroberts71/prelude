@@ -14,8 +14,11 @@
 (global-set-key "\r" 'newline-and-indent)
 
 ;;; Never use tabs; it may be necessary to find a way to override this for make
-;;; description files.
+;;; description files and for Go files.
 (setq-default indent-tabs-mode nil)
+
+;;; The audible and visible bells are both kind of annoying; disable them.
+(setq ring-bell-function 'ignore)
 
 (provide 'editor-prefs)
 ;;; editor-prefs.el ends here
