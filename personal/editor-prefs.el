@@ -8,7 +8,7 @@
 
 ;;; Set the line length to iPlant's standard for Clojure.
 (require 'whitespace)
-(setq whitespace-line-column 100)
+(setq whitespace-line-column 120)
 
 ;;; Turn autoindenting on.
 (global-set-key "\r" 'newline-and-indent)
