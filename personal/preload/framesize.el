@@ -8,7 +8,7 @@
 ;; Set the initial frame size.
 (add-to-list 'default-frame-alist '(top . 25))
 (add-to-list 'default-frame-alist '(left . 0))
-(add-to-list 'default-frame-alist '(height . 81))
+(add-to-list 'default-frame-alist '(height . 95))
 (add-to-list 'default-frame-alist '(width . 120))
 
 (provide 'framesize)
