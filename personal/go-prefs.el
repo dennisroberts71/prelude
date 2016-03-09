@@ -7,7 +7,7 @@
 ;;; Code:
 
 ;;; Set the line length to eighty characters.
-(add-hook 'go-mod-hook
+(add-hook 'go-mode-hook
           '(lambda ()
              (setq-default)
              (setq tab-width 2)))
