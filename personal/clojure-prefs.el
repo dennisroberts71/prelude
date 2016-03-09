@@ -7,7 +7,7 @@
 ;;; Code:
 
 ;;; Set the line length to eighty characters.
-(add-hook 'cloure-mode-hook
+(add-hook 'clojure-mode-hook
           '(lambda ()
              (define-clojure-indent
 
