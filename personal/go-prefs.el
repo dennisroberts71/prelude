@@ -7,7 +7,7 @@
 ;;; Code:
 
 ;;; Set the tab width to 2 characters.
-(add-hook 'go-mode-hook
+add-hook 'go-mode-hook
           '(lambda ()
              (setq-default)
              (setq tab-width 2)))
