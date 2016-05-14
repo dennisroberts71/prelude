@@ -20,6 +20,7 @@ session*
 .cask
 tramp
 /var/pcache
+<<<<<<< HEAD
 .emacs.desktop
 .emacs.desktop.lock
 network-security.data
@@ -27,3 +28,4 @@ prelude-cheatsheet.el
 prelude-cheatsheet.aux
 prelude-cheatsheet.log
 transient/
+anaconda-mode
