@@ -6,6 +6,9 @@
 ;;;
 ;;; Code:
 
+;;; Decrease the font size a little.
+(set-face-attribute 'default nil :height 110)
+
 ;;; Set the line length to iPlant's standard for Clojure.
 (require 'whitespace)
 (setq whitespace-line-column 120)
