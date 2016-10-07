@@ -13,11 +13,13 @@
 (require 'whitespace)
 (setq whitespace-line-column 120)
 
+;;; Set the default fill column.
+(setq-default fill-column 120)
+
 ;;; Turn autoindenting on.
 (global-set-key "\r" 'newline-and-indent)
 
-;;; Never use tabs; it may be necessary to find a way to override this for make
-;;; description files and for Go files.
+;;; Don't use tabs by default.
 (setq-default indent-tabs-mode nil)
 
 ;;; The audible and visible bells are both kind of annoying; disable them.
