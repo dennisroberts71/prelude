@@ -14,6 +14,7 @@
                ;; compojure
                (defroutes 'defun)
                (GET 2)
+               (PATCH 2)
                (POST 2)
                (PUT 2)
                (DELETE 2)
@@ -30,6 +31,7 @@
                (swagger-docs 'defun)
                (swaggered 'defun)
                (GET* 2)
+               (PATCH* 2)
                (POST* 2)
                (PUT* 2)
                (DELETE* 2)
