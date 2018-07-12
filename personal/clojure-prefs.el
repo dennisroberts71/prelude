@@ -39,7 +39,10 @@
                (PUT* 2)
                (DELETE* 2)
                (HEAD* 2)
-               (ANY* 2))))
+               (ANY* 2)
+
+               ;; clojure/data.xml
+               (element 2))))
 
 (provide 'clojure-prefs)
 ;;; clojure-prefs.el ends here
