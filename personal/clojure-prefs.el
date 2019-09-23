@@ -11,9 +11,6 @@
           '(lambda ()
              (define-clojure-indent
 
-               ;; clojure
-               (assoc 'defun)
-
                ;; compojure
                (defroutes 'defun)
                (GET 2)
