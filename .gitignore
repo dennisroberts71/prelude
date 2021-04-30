@@ -15,6 +15,7 @@ custom.el
 places
 .smex-items
 savefile/
+transient/
 projectile-bookmarks.eld
 session*
 .cask
@@ -30,3 +31,4 @@ transient/
 var/
 .cache/
 .lsp-session*
+anaconda-mode
